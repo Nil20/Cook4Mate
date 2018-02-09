@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Cook4Mate</string>
+    <string-array name="combobox">
+        <item>IICT</item>
+        <item>A-Building</item>
+        <item>B-Building</item>
+    </string-array>
+    <string name="title_activity_filtered_community">FilteredCommunity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_food_to_exchange_list">AddFoodToExchangeList</string>
+    <string name="title_activity_exchange_request">ExchangeRequest</string>
+    <string name="title_activity_exchange_list">ExchangeList</string>
+    <string name="title_activity_exchange_list1">ExchangeList1</string>
+</resources>

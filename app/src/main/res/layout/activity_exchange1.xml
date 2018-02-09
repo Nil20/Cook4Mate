@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/exchangelist"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/circlebutton"
+        android:text="Exchange list" />
+
+    <Button
+
+        android:id="@+id/addToExchange"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/buylist"
+        android:layout_marginLeft="-100dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/circlebutton"
+        android:text="Add to exchange list" />
+
+    <Button
+
+        android:id="@+id/requestofex"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/exchange"
+        android:layout_marginLeft="-100dp"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/circlebutton"
+        android:text="Request of Exchange"
+        />
+
+    <TextView
+        android:id="@+id/exchangeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="-95dp"
+        android:text="Exchange"
+        android:textSize="20sp" />
+</LinearLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.Cook4Mate.Home">
+
+
+    <Button
+        android:id="@+id/buylist"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="60dp"
+        android:text="Buy List"
+        android:background="@drawable/circlebutton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/addtobuy"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Add to Buy list"
+        android:background="@drawable/circlebutton"
+        android:layout_marginStart="40dp"
+        android:layout_alignTop="@+id/buylist"
+        android:layout_toEndOf="@+id/buylist" />
+
+    <Button
+        android:id="@+id/exchange"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/buylist"
+        android:layout_below="@+id/buylist"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/circlebutton"
+        android:text="Exchange" />
+
+    <Button
+        android:id="@+id/myCommunity"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/addtobuy"
+        android:text="My Community"
+        android:layout_alignTop="@+id/exchange"
+        android:background="@drawable/circlebutton"/>
+
+    <Button
+        android:id="@+id/myList"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:text="My List"
+        android:background="@drawable/circlebutton"
+        android:layout_below="@+id/exchange"
+        android:layout_alignStart="@+id/exchange" />
+
+    <Button
+        android:id="@+id/aadminpanel"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/myCommunity"
+        android:layout_alignTop="@+id/myList"
+        android:text="Admin pannel"
+        android:background="@drawable/circlebutton"/>
+
+    <Button
+        android:id="@+id/helpp"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:text="Help"
+        android:layout_above="@+id/sureto_leave_button1"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/notification"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sureto_leave_button1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/aadminpanel"
+        android:text="Notification" />
+
+    <Button
+        android:id="@+id/sureto_leave_button1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Logout" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:text="Home"
+        android:textColor="#c70d10"
+        android:textSize="30sp" />
+</RelativeLayout>

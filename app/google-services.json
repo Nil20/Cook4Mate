@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "331360824474",
+    "firebase_url": "https://cook4mate.firebaseio.com",
+    "project_id": "cook4mate",
+    "storage_bucket": "cook4mate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331360824474:android:33bd20b0f501a055",
+        "android_client_info": {
+          "package_name": "com.example.user.Cook4Mate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "331360824474-gtnopgr9gt4pivl72juf92gugphstl8l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.Cook4Mate",
+            "certificate_hash": "29c6a95a9b78488b5fb8a4e52c6fc449c40d70b9"
+          }
+        },
+        {
+          "client_id": "331360824474-0jckcoifk0qb6fpco84t00drvdbd0b8j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.Cook4Mate",
+            "certificate_hash": "34e8db9ae26788a36d28a43d18c8f982522901c9"
+          }
+        },
+        {
+          "client_id": "331360824474-dg00h8orgvjb4kjro1tlropjb6ftfl1t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_z7ehZjvLzFjlyjiG8FoSHMOLn2iodJ4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "331360824474-dg00h8orgvjb4kjro1tlropjb6ftfl1t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

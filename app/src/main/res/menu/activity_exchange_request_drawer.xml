@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+        <item
+            android:id="@+id/menu_change_pass"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Change ID password" />
+        <item
+            android:id="@+id/menu_food_list"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Food List" />
+        <item
+            android:id="@+id/menu_elist"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Exchange List" />
+        <item
+            android:id="@+id/menu_my_list"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="My List" />
+        <item
+            android:id="@+id/menu_help"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Help" />
+        <item
+            android:id="@+id/menu_log_out"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Log out" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

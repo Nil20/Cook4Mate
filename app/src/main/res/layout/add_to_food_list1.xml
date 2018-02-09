@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible">
+
+    <EditText
+        android:id="@+id/nameOfItemToSell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:hint="Name of the item to sell"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/setPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/nameOfItemToSell"
+        android:layout_below="@+id/nameOfItemToSell"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="set a price"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/forHowMany"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/setPrice"
+        android:layout_below="@+id/setPrice"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="for how many people?"
+        android:inputType="textPersonName" />
+
+    <CheckBox
+        android:id="@+id/availability"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Available Now"
+        android:layout_below="@+id/forHowMany"
+        android:layout_alignStart="@+id/forHowMany"
+        android:layout_marginTop="26dp" />
+
+    <EditText
+        android:id="@+id/dateOfSale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/availability"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="date of sale"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/Crow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/dateOfSale"
+        android:layout_below="@+id/dateOfSale"
+        android:layout_marginTop="14dp"
+        android:text="For?"
+        android:textSize="18dp" />
+
+    <Spinner
+        android:id="@+id/spinnerIICT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dialog"
+        android:entries="@array/combobox"
+        android:visibility="visible"
+        android:layout_below="@+id/Crow"
+        android:layout_alignStart="@+id/Crow"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/doneBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:layout_below="@+id/phone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Your current phone no."
+        android:inputType="textPersonName"
+        android:layout_below="@+id/spinnerIICT"
+        android:layout_alignStart="@+id/spinnerIICT"
+        android:layout_marginTop="23dp" />
+
+</RelativeLayout>

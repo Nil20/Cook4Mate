@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.Cook4Mate">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Cook4Mate"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LogIn" />
+        <activity android:name=".Home" />
+        <activity android:name=".MainList" />
+        <activity android:name=".AddToFoodList1" />
+        <activity android:name=".Exchange1" />
+        <activity android:name=".SignUp">
+            <intent-filter>
+                <action android:name="android.intent.action.ALL_APPS" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".KnowCommunity" />
+        <activity android:name=".SearchResults" />
+        <activity android:name=".MyCommunity" />
+        <activity android:name=".MyList" />
+        <activity android:name=".AdminPass" />
+        <activity android:name=".CreatedCommunity" />
+        <activity android:name=".NotifiCation" />
+        <activity android:name=".HeLp" />
+        <activity android:name=".Cook4Mate" />
+
+        <uses-permission android:name="android.permission.INTERNET" />
+
+        <activity
+            android:name=".FilteredCommunity"
+            android:label="@string/title_activity_filtered_community"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddFoodToExchangeList"
+            android:label="@string/title_activity_add_food_to_exchange_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ExchangeRequest"
+            android:label="@string/title_activity_exchange_request"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SearchCommunity" />
+        <activity
+            android:name=".ExchangeList"
+            android:label="@string/title_activity_exchange_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ExchangeList1"
+            android:label="@string/title_activity_exchange_list1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".HowtoExchange" />
+        <activity android:name=".ExchangeReq" />
+        <activity android:name=".ExchangeConfirm" />
+        <activity android:name=".SuretoLeave" />
+        <activity android:name=".AddMember" />
+        <activity android:name=".CreatingCommunity" />
+        <activity android:name=".ConfirmBuy"></activity>
+    </application>
+
+</manifest>
